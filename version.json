@@ -1,7 +1,1 @@
-{
- "versionCode": 17,
- "versionName": "2.7",
- "apkUrl": "https://github.com/0nlyumer/flasham-releases/releases/download/v2.7/Flashy-v2.7.apk",
- "notes": "Delivery Challan fixes: Sale Order ab sirf asal quantity poora hone par Completed hota hai (purane orders bhi sahi); ek hi challan mein ek item ke do types (A + B) ja sakte hain; Wastage ki delivery par department stock ghalat kam nahi hota; challan print par har type ki apni unit (m / kg) ati hai.",
- "publishedAt": "2026-10-30"
-}
+{"apkUrl":"https://github.com/0nlyumer/flasham-releases/releases/download/v2.8/Flashy-v2.8.apk","notes":"Print fix: app ka theme, UI kit ya font size badalne se print designs aur print preview ab kabhi nahi bigarte — har finalized print hamesha waisa hi ayega jaisa set kiya tha.","publishedAt":"2026-10-30","versionCode":18,"versionName":"2.8"}
