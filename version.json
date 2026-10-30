@@ -1,1 +1,7 @@
-{"apkUrl":"https://github.com/0nlyumer/flasham-releases/releases/download/v2.6/Flashy-v2.6.apk","notes":"Login ab username, mobile number ya employee ID — teeno se hota hai: pura code (EMP-036) ya sirf number (036) + password. Sab employees ke My Space accounts live hain; pehli login par password badalna lazmi hai.","publishedAt":"2026-10-30","versionCode":16,"versionName":"2.6"}
+{
+ "versionCode": 17,
+ "versionName": "2.7",
+ "apkUrl": "https://github.com/0nlyumer/flasham-releases/releases/download/v2.7/Flashy-v2.7.apk",
+ "notes": "Delivery Challan fixes: Sale Order ab sirf asal quantity poora hone par Completed hota hai (purane orders bhi sahi); ek hi challan mein ek item ke do types (A + B) ja sakte hain; Wastage ki delivery par department stock ghalat kam nahi hota; challan print par har type ki apni unit (m / kg) ati hai.",
+ "publishedAt": "2026-10-30"
+}
