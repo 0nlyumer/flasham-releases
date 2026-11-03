@@ -1,9 +1,1 @@
-{
-  "versionCode": 21,
-  "versionName": "2.11",
-  "apkUrl": "https://github.com/0nlyumer/flasham-releases/releases/download/v2.11/Flashy-v2.11.apk",
-  "notes": "Naya update: Finish Good Consumption screen mein ab Department select kar sakte hain — consumption usi department ke stock se hogi jo select ho, aur Plan/Department upar, Item poori width mein neeche. User Control mein Departments ki list (sirf dekhne ke liye). App der se dobara khule to Home screen se shuru hogi.",
-  "publishedAt": "2026-11-03",
-  "apk": "Flashy-v2.11.apk",
-  "releaseNotes": "FG Consumption: department select, phase/tank swipe split, home reset. User Control Departments is a view-only list (correction)."
-}
+{"apk":"Flashy-v2.12.apk","apkUrl":"https://github.com/0nlyumer/flasham-releases/releases/download/v2.12/Flashy-v2.12.apk","notes":"Naya update: ab poore ERP mein sirf wohi departments nazar ayenge jin ki aap ko permission hai — Plan Consumption, Stock Demand aur Stock Transfer mein bhi. Koi purana ya seedha likha hua department naam kahin nahi ayega; jis user ko koi department assign nahi, us ke liye save nahi hoga.","publishedAt":"2026-11-03","releaseNotes":"Permitted departments everywhere: Plan Consumption save resolution (record dept -> first permitted -> blocked), Stock Demand/Stock Transfer permitted-only options, import defaults unset, FG-combo seeds carry no department names.","versionCode":22,"versionName":"2.12"}
