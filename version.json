@@ -1,9 +1,9 @@
 {
-  "apk": "Flashy-v2.20.apk",
-  "apkUrl": "https://github.com/0nlyumer/flasham-releases/releases/download/v2.20/Flashy-v2.20.apk",
-  "notes": "Mega screen par left/right swipe ab tanks ke darmiyan move karta hai — plan-mode swipe jaisa hi gesture, ghost slide tak, dono ends par clamp (no wrap).",
-  "publishedAt": "2026-11-04",
-  "releaseNotes": "Mega swipe fix: root cause — Mega carousel slides + dots render karta tha magar koi pointer handler bind nahi tha, is liye swipe kuch nahi karta tha. Fix: plan-mode swipe handlers ka mirror (48px threshold, swipe ke baad click suppression) Mega slides region par + touch-pan-y (vertical scroll barkarar); shared clampSlideIndex helper fgTanks mein (plan goTo bhi ab isi par hai, behaviour identical). Verification: new real-Chromium probe 11/11 (CDP real touch swipes: left/right, ghost slide, dono ends par clamp, tap regression, plan-mode control, nayi tank swipe se reachable) + new node harness 26/26; sab legacy harnesses (597 checks) aur probes green — koi expectation change nahi. Zero live-data writes.",
-  "versionCode": 30,
-  "versionName": "2.20"
+  "apk": "Flashy-v2.21.apk",
+  "apkUrl": "https://github.com/0nlyumer/flasham-releases/releases/download/v2.21/Flashy-v2.21.apk",
+  "notes": "History do hisso mein: pehle plans/items ki list, phir detail — har phase apni rang wali patti ke neeche. Tank par fazool likhai khatam. Print mein zoom +, − aur %; mobile par Save PDF/Image/CSV ab sach mein save hotay hain. Naye loaders: branded loading, skeleton, pulsing dots. Advance screens ka naya saaf design.",
+  "publishedAt": "2026-11-05",
+  "releaseNotes": "Flashy v2.21 (FG fixes pack ka APK hissa + History redesign): (1) Phases sirf Disable/Enable hotay hain, delete kabhi nahi; PACKING live disabled; History mein sirf enabled phases. (2) Tank auto-code (T-1/F-9) khatam — har tank ka naam user deta hai, creation par poochha jata hai, kabhi bhi rename; rename usi phase ka jis par koi consumption nahi. (3) Mega menu (⋮) screen ke top-right par; tamam popups backdrop tap se band; footer = Mega left, phases center, ⋮ right. (4) History two-level: plans list / items list → detail; plan detail mein Edit + Print upar, items tartib se, har phase rang wali sticky patti ke neeche apni total ke saath; item detail plan-wise grouped. (5) Print popup mein zoom in/out + % reset; mobile par Save PDF/PNG/CSV ka bug fix — downloads ab native AndroidFileSaver bridge se Downloads/Flashy mein save hotay hain. (6) Tank graphic se 'Tank … • PHASE' boilerplate khatam, sirf naam ki saaf chip. (7) Loader system: rectangle panel + plain spinner khatam — branded loader, skeleton cards, pulsing dots, export progress bar + button Saving state. (8) Desktop Advance Request + Advance Sheet ka naya design (functionality same). Verification: node harness 40/40 + real-Chromium probe 29/29; tamam FG-lineage harnesses green (3 puranay reds documented superseded).",
+  "versionCode": 31,
+  "versionName": "2.21"
 }
